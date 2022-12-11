@@ -70,6 +70,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 ===========================================================================
 https://www.youtube.com/watch?v=-ZMP8ZladIQ&list=PLhDKyjgkNJZUrNyuR1qwOgLRNQFCclHT7&index=15
+00.21.00
 
 https://react.semantic-ui.com/usage
 
