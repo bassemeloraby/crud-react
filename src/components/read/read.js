@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Button, Table } from 'semantic-ui-react';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 export default function Read() {
   const [apiData, setApiData] = useState([]);
@@ -11,6 +12,9 @@ export default function Read() {
         setApiData(getData.data);
       });
   });
+  const setID = (id)=>{
+    console.log(id)
+  }
   return (
     <div>
       <Table celled>
@@ -32,10 +36,14 @@ export default function Read() {
                 <Table.Cell>{data.firstName}</Table.Cell>
                 <Table.Cell>{data.lastName}</Table.Cell>
                 <Table.Cell>
-                  <Button color='green'>Update</Button>
+                  <Link to="/update">
+                    <Button color="green" onClick={}>Update</Button>
+                  </Link>
                 </Table.Cell>
                 <Table.Cell>
-                  <Button color='red'>Delete</Button>
+                  <Link to="/delete">
+                    <Button color="red">Delete</Button>
+                  </Link>
                 </Table.Cell>
               </Table.Row>
             );
